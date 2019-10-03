@@ -18,6 +18,7 @@ public class Main {
                 BufferedReader keyIn = new BufferedReader(new InputStreamReader(System.in));
                 System.out.print("Your ID: ");
                 s = keyIn.readLine();
+                //若無輸入，則跳出迴圈，不傳送字串
                 if(s.equals("")){
                     break;
                 }
